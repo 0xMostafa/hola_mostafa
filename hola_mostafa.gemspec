@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name           = 'hola_mostafa'
-  s.version        = '0.0.2'
+  s.version        = '0.0.3'
   s.summary        = 'Hola Mostafa, Hola Ruby'
   s.description    = 'sample'
   s.authors        = ['Mostafa ElGendi']
