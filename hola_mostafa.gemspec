@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description    = 'sample'
   s.authors        = ['Mostafa ElGendi']
   s.email          = '0xmostafa@duck.com'
-  s.files          = ['lib/hola_mostafa.rb']
+  s.files          = Dir['lib/**/*.rb']
   s.homepage       = 'https://rubygems.org/gems/hola_mostafa'
   s.license        = 'MIT'
 end
