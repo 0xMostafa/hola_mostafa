@@ -5,15 +5,15 @@ module HolaMostafa
   # Say hi to the world of Ruby!
   # in multiple languages!
   #
-  # @example
+  # Example:
   #  >> HolaMostafa.hi('english')
   #  => 'hello'
   #
-  # @param
+  # Arugments:
   #   language: (String)
 
   def self.hi(language = 'arabic')
     translator = Translator.new(language)
-    translator.hi
+    puts translator.hi
   end
 end
