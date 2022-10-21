@@ -7,13 +7,13 @@ module HolaMostafa
     def hi
       case @language
       when 'arabic'
-        puts 'هلا'
+        'هلا'
       when 'english'
-        puts 'hello'
+        'hello'
       when 'spanish'
-        puts 'hola'
+        'hola'
       else
-        puts 'hala'
+        'hala'
       end
     end
   end
